@@ -2,6 +2,12 @@
 
 const showNumbers = () => {
   // 👇🏻 Añade tu lógica aquí
+  let numbers = 0;
+
+  while (numbers < 100) {
+    numbers += 1;
+    console.log(numbers);
+  }
 
   // 👆🏻
 };

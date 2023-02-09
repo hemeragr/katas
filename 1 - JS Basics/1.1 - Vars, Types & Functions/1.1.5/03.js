@@ -3,9 +3,9 @@
 const createCounter = () => {
   const counter = 5;
   return counter;
-}
+};
 
 createCounter();
 
 // ❓
-console.log(counter);
+console.log(createCounter());
